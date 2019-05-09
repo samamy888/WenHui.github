@@ -4,3 +4,10 @@ body {
     font-family: Georgia, "Times New Roman",
           Times, serif;
     background-image:url(background1.jpg)}
+
+img{
+    position: absolute;
+    top: 1em;
+    left: 50em;
+	width: 25%;
+	height: 50%;}
