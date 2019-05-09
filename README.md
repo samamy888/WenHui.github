@@ -1,2 +1,1 @@
 # Autobiography
-$ git status
