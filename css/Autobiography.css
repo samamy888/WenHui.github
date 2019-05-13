@@ -1,13 +1,39 @@
 
 body {
-    padding-left: 11em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    background-image:url(background1.jpg)}
+	padding-top:4em;
+    padding-left: 15em;
+    font-family: Georgia, "Times New Roman",Times, serif;
+	background-size: cover;
+    background-image:url(background_Autobiography.jpg)}
 
 img{
     position: absolute;
     top: 1em;
     left: 50em;
-	width: 25%;
+	width: 20%;
 	height: 50%;}
+		
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 6em;
+    left: 1em;
+    width: 9em }
+		  
+ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+	
+ul.navbar a {
+    text-decoration: none }
+	
+h1{
+	font-weight: bold; 
+	color: #ffffff; font-size: 20px;color:#ffffff;
+	text-deco:underline; text-shadow: 3px 3px #000000;
+	
+}	
