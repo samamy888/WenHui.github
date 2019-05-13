@@ -1,4 +1,16 @@
 
+@media(min-width:900px){
+	.Rwdtxt{
+		font-size:1.2rem;
+		color:red;
+	}
+}
+
+.Rwdtxt{
+		font-size:1.2rem;
+		color:white;
+}
+
 body {
 	padding-top:4em;
     padding-left: 15em;
