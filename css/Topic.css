@@ -1,10 +1,11 @@
 body {
-	padding-top: 2em;
+    padding-top: 2em;
     padding-left: 15em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
+    font-family: 'Microsoft JhengHei';
+
     color: black;
-    background-image:url("Background_Unity.png")}
+    background-image: url("Background_Unity.png")
+}
 
 ul.navbar {
     list-style-type: none;
@@ -13,16 +14,21 @@ ul.navbar {
     position: absolute;
     top: 6em;
     left: 1em;
-    width: 9em }
-		  
+    /*漏打分號*/
+    width: 9em;
+}
+
 ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
-	
-ul.navbar a {
-    text-decoration: none }
+    border-right: 1em solid black;
+}
 
-h1{    padding-left: 8em;
-	}
+ul.navbar a {
+    text-decoration: none
+}
+
+h1 {
+    padding-left: 8em;
+}
