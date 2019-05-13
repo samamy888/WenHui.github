@@ -1,6 +1,6 @@
 body {
-	padding-top: 5em;
-    padding-left: 20em;
+	padding-top: 2em;
+    padding-left: 15em;
     font-family: Georgia, "Times New Roman",
           Times, serif;
     color: black;
@@ -23,3 +23,6 @@ ul.navbar li {
 	
 ul.navbar a {
     text-decoration: none }
+
+h1{    padding-left: 8em;
+	}
