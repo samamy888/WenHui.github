@@ -30,7 +30,11 @@ ul.navbar li {
 	
 ul.navbar a {
     text-decoration: none }
-	
+
+ul.navbar li:hover{
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
 h1{
 	font-weight: bold; 
 	color: #ffffff; font-size: 20px;color:#ffffff;

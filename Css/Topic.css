@@ -29,6 +29,11 @@ ul.navbar a {
     text-decoration: none
 }
 
+ul.navbar li:hover{
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
 h1 {
     padding-left: 8em;
 }

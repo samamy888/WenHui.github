@@ -8,6 +8,8 @@ body {
     color: black;
     background-image:url("../Picture/Background_Unity.png")}
 
+
+	
 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -26,7 +28,10 @@ ul.navbar li {
 ul.navbar a {
     text-decoration: none }
 
-
+ul.navbar li:hover{
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
 
 	
 img{
