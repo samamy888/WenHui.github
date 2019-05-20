@@ -1,87 +1,95 @@
-<form>
+<!DOCTYPE html PUBLIC "WenHui">
+<html>
 
 <!--資源區-->
-<head>
- <link rel="stylesheet" type="text/css" href="Css/Bootstrap/bootstrap.min.css">	
- <link rel="stylesheet" type="text/css" href="Css/Autobiography.css" > 	
- <img src="Picture/Resume_Picture.jpg" class="img-responsive">
-</head>
-<body> 
+	<head>
+		 <link rel="stylesheet" type="text/css" href="Css/Bootstrap/bootstrap.min.css">	
+		 <link rel="stylesheet" type="text/css" href="Css/Autobiography.css" >
+		 <link rel="stylesheet" type="text/css" href="Js/bootstrap.min.js">	
+		 <img src="Picture/Resume_Picture.jpg" class="img-responsive">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<!-- 目錄 -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 fixed-index">
+					<ul class="navbar">
+						<li><a href="index.html">首頁</a></li>
+						<li><a href="Autobiography.html">個人簡介</a></li>
+						<li><a href="Topic.pdf" target="blank">大學專題</a></li>
+						<li><a href="Unity.html">Unity 作品集</a></li>
+						<li><a href="https://github.com/samamy888/WenHui.github.io">返回Github</a>
+					</ul>
+				</div>
+				
+		<!--自傳區-->
+			
+				<div class="col-md-8">
+					<h1 >
+						基本資料 :<br>
+						中文姓名：蕭文暉 <br>
+						性別：男性 <br>
+						兵役狀況：役畢 <br>
+						退伍時間：2019年04月<br>
+						出生日期：1996年03月08日<br>
+						婚姻狀況：未婚 <br>
+						身高體重：176公分65公斤 <p>
 
-<!-- 目錄 -->
+						聯絡資料 :<br>
+						E-mail：samamy888@gmail.com<br>
+						聯絡電話：0970402235  <br>
+						住家：(02)24300279  <br>
+						聯絡方式：0970402235 <br>
+						通訊地址：基隆市安樂區麥金路486號 <p>
 
-<ul class="navbar">
-  <li><a href="index.html">首頁</a></li>
-  <li><a href="Autobiography.html">個人簡介</a></li>
-  <li><a href="Topic.pdf" target="blank">大學專題</a></li>
-  <li><a href="Unity.html">Unity 作品集</a></li>
-  <li><a href="https://github.com/samamy888/WenHui.github.io">返回Github</a></li>
-</ul>
+						求職條件 : <br>
+						希望職務名稱：軟體工程師<br>
+						最快可上班日：錄取後，二週內可上班<br>
+						希望工作性質：全職<br>
+						希望職務類別：<br>
+						軟體設計工程師、韌體設計工程師、Internet程式設計師、電玩程式設計師、其他資訊專業人員<br>
+						希望從事產業：軟體及網路相關業<br>
+						希望工作地點：台北市、基隆市<br>
+						希望上班時段： 日班<br>
+						希望薪資待遇：依公司規定<p>
 
-<!--自傳區-->
+						技能專長 :<br>
+						擅長工具： Android、C、C#、C++、Java、Unity <br>
+						證照資格： 乙級數位電子技術士、丙級工業電子技術士、丙級工業配線技術士、丙級室內配線技術士 <p>
 
-<h1 class = "Rwdtxt">
-基本資料 :<br>
-中文姓名：蕭文暉 <br>
-性別：男性 <br>
-兵役狀況：役畢 <br>
-退伍時間：2019年04月<br>
-出生日期：1996年03月08日<br>
-婚姻狀況：未婚 <br>
-身高體重：176公分65公斤 <p>
+						自傳 :<br>
+						中文自傳： 我畢業於國立勤益科技大學，就讀電機工程系<br>
+						從高職開始就對程式有興趣，但考量到以後工作能找的範圍能較廣泛<br>
+						最後還是選擇電機系作為大學選擇的科系<br>
+						大學裡，只要系上有開程式語言，就通通都選修<br>
+						C++、JAVA、Android、單晶片Arduino及8051，成績方面也是當中前幾的<br>
+						大三時開始自學C#(Unity)、html，<br>
+						曾擔任C語言及Arduino助教。<br>
+						並在閒暇時閱讀程式設計師必看書籍，大話重構、clean code等等<br>
+						精進程式寫作及改進空間，並加入程式設計社團，參與前輩們的程式設計問題<br>
+						有在github上傳作品及網站訓練自己<br>
 
-聯絡資料 :<br>
-E-mail：samamy888@gmail.com<br>
-聯絡電話：0970402235  <br>
-住家：(02)24300279  <br>
-聯絡方式：0970402235 <br>
-通訊地址：基隆市安樂區麥金路486號 <p>
+						大學專題(兩人合作)：3D印表機程式設計<br>
+						https://github.com/samamy888/3D_Printer.git<br>
+						硬體：Graber i3、arduino Mega 2560<br>
+						不參考Marlin的程式碼<br>
+						只了解它實做的功能<br>
+						並自力撰寫程式，了解自己的能力能做到哪裡<br>
+						最後有成功列印物品，盡管效率跟質量都與專業的有相當落差<br>
+						但能完成這個，對我來說，成就感非常的大<br>
+						在這專題裡，也讓我學到不少，像是Arduino本身頻率不像電腦一樣高<br>
+						只有16Mhz，導致效率變得非常重要<br>
+						原先沒注意，所以第一次實作時，採用即時運算<br>
+						結果列印轉彎部分，變得非常緩慢，CPU處理不來<br>
+						後來以空間換取時間，增加緩存，情況才好多了<br>
+						或是直接在電腦上把Gcode先轉成更低階運行用的代碼<br>
+						再給Arduino執行也可以，且更好<p>
 
-求職條件 : <br>
-希望職務名稱：軟體工程師<br>
-最快可上班日：錄取後，一週可上班<br>
-希望工作性質：全職<br>
-希望職務類別：<br>
-軟體設計工程師、韌體設計工程師、Internet程式設計師、電玩程式設計師、其他資訊專業人員<br>
-希望從事產業：軟體及網路相關業<br>
-希望工作地點：台北市、基隆市<br>
-希望上班時段： 日班<br>
-希望薪資待遇：依公司規定<p>
-
-技能專長 :<br>
-擅長工具： Android、C、C#、C++、Java、Unity <br>
-證照資格： 乙級數位電子技術士、丙級工業電子技術士、丙級工業配線技術士、丙級室內配線技術士 <p>
-
-自傳 :<br>
-中文自傳： 我畢業於國立勤益科技大學，就讀電機工程系<br>
-從高職開始就對程式有興趣，但考量到以後工作能找的範圍能較廣泛<br>
-最後還是選擇電機系作為大學選擇的科系<br>
-大學裡，只要系上有開程式語言，就通通都選修<br>
-C++、JAVA、Android、單晶片Arduino及8051，成績方面也是當中前幾的<br>
-大三時開始自學C#(Unity)、html，<br>
-曾擔任C語言及Arduino助教。<br>
-並在閒暇時閱讀程式設計師必看書籍，大話重構、clean code等等<br>
-精進程式寫作及改進空間，並加入程式設計社團，參與前輩們的程式設計問題<br>
-有在github上傳作品及網站訓練自己<br>
-
-大學專題(兩人合作)：3D印表機程式設計<br>
-https://github.com/samamy888/3D_Printer.git<br>
-硬體：Graber i3、arduino Mega 2560<br>
-不參考Marlin的程式碼<br>
-只了解它實做的功能<br>
-並自力撰寫程式，了解自己的能力能做到哪裡<br>
-最後有成功列印物品，盡管效率跟質量都與專業的有相當落差<br>
-但能完成這個，對我來說，成就感非常的大<br>
-在這專題裡，也讓我學到不少，像是Arduino本身頻率不像電腦一樣高<br>
-只有16Mhz，導致效率變得非常重要<br>
-原先沒注意，所以第一次實作時，採用即時運算<br>
-結果列印轉彎部分，變得非常緩慢，CPU處理不來<br>
-後來以空間換取時間，增加緩存，情況才好多了<br>
-或是直接在電腦上把Gcode先轉成更低階運行用的代碼<br>
-再給Arduino執行也可以，且更好<p>
-
-最後，感謝您花時間看完我的履歷<p>
-</h1>
-
-</body>
-</form>
+						最後，感謝您花時間看完我的履歷<p>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

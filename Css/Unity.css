@@ -1,15 +1,13 @@
 
 
 body {
-	padding-top: 5em;
-    padding-left: 20em;
+	padding-top: 4em;
     font-family: Georgia, "Times New Roman",
           Times, serif;
     color: black;
-    background-image:url("../Picture/Background_Unity.png")}
+    background-image:url("../Picture/Background_Unity.png");
+	}
 
-
-	
 ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -17,13 +15,17 @@ ul.navbar {
     position: absolute;
     top: 6em;
     left: 1em;
-    width: 9em }
+    width: 9em;
+	z-index:99;
+	}
 		  
 ul.navbar li {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-right: 1em solid black }
+    border-right: 1em solid black;
+    width: 8em ;
+	}
 	
 ul.navbar a {
     text-decoration: none }
@@ -33,7 +35,30 @@ ul.navbar li:hover{
     color: white;
 }
 
+.fixed-index{
+	z-index:1;
+	text-align:center;
+}
+
 	
 img{
 	width: 50%;
 	height: 50%;}
+	
+@media (max-width: 768px) {
+	.fixed-index{
+		padding-left:5em;
+	}
+	h2{
+		font-size:90%;
+	}
+	caption {
+	  color:white;
+	  caption-side:top;
+	}	
+	ul.navbar {
+		position: absolute;
+		left:0;
+	}
+	
+}
