@@ -11,7 +11,8 @@ img{
     top: 1em;
     left: 50em;
 	width: 20%;
-	height: 50%;}
+	height: 50%;
+	display:none;}
 		
 ul.navbar {
     list-style-type: none;
