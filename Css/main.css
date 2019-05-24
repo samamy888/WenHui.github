@@ -16,6 +16,7 @@ table{
 
 caption {
   color:black;
+  text-align:center;
   caption-side:top;
 }	
 
@@ -75,6 +76,7 @@ a:visited {
 }
 
 address {
+	color:white;
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted
