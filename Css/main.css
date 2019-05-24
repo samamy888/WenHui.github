@@ -87,7 +87,9 @@ address {
 		color :white;
 		background-image:url(../Picture/background_Index_RWD.jpg);
 	}
-
+	h1{
+		font-size:150%;
+	}
 	h2{
 		color:white;
 		font-size:150%;
@@ -96,9 +98,12 @@ address {
 	  color:white;
 	  caption-side:top;
 	}	
+	table{
+		font-size:80%;
+	}
 	ul.navbar {
 		font-size:80%;
-		width:7em;
+	//	border-right: 0.5em ;
 		position: absolute;
 		left:0;
 	}
