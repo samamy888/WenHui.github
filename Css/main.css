@@ -85,9 +85,12 @@ address {
 		color :white;
 		background-image:url(../Picture/background_Index_RWD.jpg);
 	}
+	h1{
+		font-size:90%;
+	}
 	h2{
 		color:white;
-		font-size:150%;
+		font-size:100%;
 	}
 	caption {
 	  color:white;
