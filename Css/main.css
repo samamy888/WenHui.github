@@ -87,12 +87,10 @@ address {
 		color :white;
 		background-image:url(../Picture/background_Index_RWD.jpg);
 	}
-	h1{
-		font-size:100%;
-	}
+
 	h2{
 		color:white;
-		font-size:100%;
+		font-size:150%;
 	}
 	caption {
 	  color:white;
@@ -100,6 +98,7 @@ address {
 	}	
 	ul.navbar {
 		font-size:80%;
+		width:7em;
 		position: absolute;
 		left:0;
 	}

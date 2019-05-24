@@ -60,6 +60,7 @@ img{
 	}	
 	ul.navbar {
 		font-size:80%;
+		width:7em;
 		position: absolute;
 		left:0;
 	}
