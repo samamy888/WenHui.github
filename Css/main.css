@@ -76,7 +76,7 @@ a:visited {
 }
 
 address {
-	color:white;
+	color:black;
     margin-top: 1em;
     padding-top: 1em;
     border-top: thin dotted
@@ -88,7 +88,7 @@ address {
 		background-image:url(../Picture/background_Index_RWD.jpg);
 	}
 	h1{
-		font-size:90%;
+		font-size:100%;
 	}
 	h2{
 		color:white;
@@ -102,6 +102,9 @@ address {
 		font-size:80%;
 		position: absolute;
 		left:0;
+	}
+	address {
+		color:white;
 	}
 	
 }
